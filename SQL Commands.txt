@@ -1,0 +1,40 @@
+SQL Commands:
+
+Create Database:
+	create database "table_name";
+
+Create Table:
+	create table "table_name"
+	(
+		ID int primary key AUTO_INCREMENT,
+		Name varchar(50),
+		Age int,
+		Student_ID varchar(50),
+		Fees money,
+	  
+	);
+
+
+Delete Table:
+	DROP TABLE table_name;
+
+Delete database:
+	DROP DATABASE databasename;
+
+Fetch table details:
+	SELECT * FROM Aptech_Class;
+
+
+Insert into tables:
+	insert into "table_name" values 
+		(1,'Fakhar Arjumand',19,'Student1363140',6000),
+		(2,'Safiullah',20,'Student136445',5000),
+		(3,'Mujhtuba Jamil',19,'Student1363370',6500),
+		(4,'Rao Saifullah',19,'Student1362752',6000),
+		(5,'Talha Junaid',20,'Student1368073',5000),
+		(6,'Sarim Abid',20,'Student1364929',5000),
+		(7,'Abdullah Anwer',20,'Student1364929',6000)
+	;
+
+Set Primay Key:
+	PRIMARY KEY (Column_name)===> While creating table insert at end of query.
